@@ -5,91 +5,178 @@
     <title>UCATPrep</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <section class="header">
-        <nav>
-            <a href="index.html"><img src="logo.png"></a>
-            <div class="nav-links">
-                <ul>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">CONTACT</a></li>
-                </ul>
-            </div>
-        </nav>
+    <body>
         
-    <div class="hooker">
-        <h1>Worried about the UCAT?</h1>
-        <br>
-        <p>Here's how we can help you</p>
-        <br>
-        <a href="" class="book">Book  a  Trial</a>
-    </div>    
-    
-    </section>
-    
-    <!-- offering -->
-    <section class="course">
-        <h1>What We Offer</h1>
-        
-        <div class="row">
-            <div class="offer-info">
-                <h3>24/7 Support</h3>
-                <p>Access with 24/7 support and contact with our tutors</p>
-            </div>
-            <div class="offer-info">
-                <h3>Personalised Feedback</h3>
-                <p>Specific and effective one on one feedback both written and verbal for easy and effective learning and improvement</p>
-            </div>
-            <div class="offer-info">
-                <h3>High Quality Resources</h3>
-                <p>Specialised, high quality resources to ensure full preparation and learning</p>
-            </div>
-            
-        </div>
-        
-    </section>
-    
-    <!-- who we are -->
-    <section class="who-we-are">
-        
-<!--        <body><div class="box"><div class="background"></div></div></body>-->
-        <div class="box">
-            <h1 class="who">Who We Are</h1>
-            <p class="hailing">Hailing from John Monash Science School, we are used to thriving in a competitive and cutthroat setting.
-                  We understand that the UCAT comes with its own challenges that VCE subjects simply do not mirror and this
-                  is why those who have historically performed well in an academic environment may initially struggle with
-                  the UCAT. <br /><br />With our tutors each having their own unique methods of completing the UCAT, we have
-                  refined these varied approaches into one idealised method, optimising the students’ scores and increasing
-                  their chances of getting into medicine.<br /><br />We were once the average UCAT student; lacking these
-                  Our tutors have learnt to work smarter and have identified recurring patterns within each subtest, and
-                  have accomplished scores of well above 3000, easily surpassing the threshold to get into medicine in
-                  Australia.</p>
-        </div>
-<!--        <div class="rec1"></div>-->
-        
+        <script>// Get the button:
+            let mybutton = document.getElementById("myBtn");
 
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
 
-    </section>
-    
-    <!--  meet the tutors  -->
-    
-    <section class="tutes">
-        <body>
+            function scrollFunction() {
+              if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0; // For Safari
+              document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            }
+        </script>
+        
+        <button onclick="topFunction()" id="myBtn" title="Go to top">
+            <img class="up" src="up.png">
+        </button>
+
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="logo.png"></a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#booking">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="hooker">
+            <h1>Worried about the UCAT?</h1>
+            <br>
+            <p>Here's how we can help you</p>
+            <br>
+            <a href="#booking" class="book">Book  a  Trial</a>
+        </div>    
+
+        </section>
+
+        <!-- offering -->
+        <section class="course">
+            <h1>What We Offer</h1>
+
+            <div class="row">
+                <div class="offer-info">
+                    <h3>24/7 Support</h3>
+                    <p>Access with 24/7 support and contact with our tutors</p>
+                </div>
+                <div class="offer-info">
+                    <h3>Personalised Feedback</h3>
+                    <p>Specific and effective one on one feedback both written and verbal for easy and effective learning and improvement</p>
+                </div>
+                <div class="offer-info">
+                    <h3>High Quality Resources</h3>
+                    <p>Specialised, high quality resources to ensure full preparation and learning</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- who we are -->
+        <section id="about" class="who-we-are">
+
+            <!--        <body><div class="box"><div class="background"></div></div></body>-->
             <div class="box">
-                <div class="jos-headshot"><img class="img" src="jos-headshot.png" /></div>
+                <h1 class="who">Who We Are</h1>
+                <p class="hailing">Hailing from John Monash Science School, we are used to thriving in a competitive and cutthroat setting.
+                      We understand that the UCAT comes with its own challenges that VCE subjects simply do not mirror and this
+                      is why those who have historically performed well in an academic environment may initially struggle with
+                      the UCAT. <br /><br />With our tutors each having their own unique methods of completing the UCAT, we have
+                      refined these varied approaches into one idealised method, optimising the students’ scores and increasing
+                      their chances of getting into medicine.<br /><br />We were once the average UCAT student; lacking these
+                      Our tutors have learnt to work smarter and have identified recurring patterns within each subtest, and
+                      have accomplished scores of well above 3000, easily surpassing the threshold to get into medicine in
+                      Australia.</p>
             </div>
-        </body>
-    </section>
-    
-    
-    
-    <!-- footer  -->
-    <section class="footer">
-        <h4>UCATPREP</h4>
-        <p> UCATPrep + legal info and stuff</p>
+    <!--        <div class="rec1"></div>-->
+
+
+
+        </section>
+
+        <!--  meet the tutors  -->
+
+        <section class="tutes">
+            <h2>Meet the Tutors</h2>
+            <div class="row">
+                <div class="quotes">
+                    <img src="jos-headshot.png">
+                </div>
+                <div class="quotes">
+                    <h1>Josiah Suwono</h1>
+                    <sub>John Monash Science School Alumni &amp; UCAT 3000+</sub>
+                    <p>"Having undertaken the UCAT in 2023, I have found that the experience can be isolating and filled with uncertainty. However, establishing connections within a classroom setting, coupled with the accountability that it provided, was crucial in ensuring an enjoyable and successful UCAT experience".</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="quotes">
+                    <img src="sap-headshot.png">
+                </div>
+                <div class="quotes">
+                    <h1>Saptanshu Paul</h1>
+                    <sub>John Monash Science School Alumni &amp; UCAT 3000+</sub>
+                    <p>"Having sat the UCAT in 2023, I quickly noticed that the test was unlike any conventional SAC or VCE exam. Though I initially struggled to see any improvements, through refining my methods and technical know-how, I saw a dramatic increase in my performance which allowed me to achieve a high score. These methods are what constitute the backbone of our UCAT course."</p>
+                </div>
+            </div>
+        </section>
+        <br>
+        <hr>
+        <!-- graphs  -->
+        <section class="graph">
+            <div class="row">
+                <div class="stats">
+                    <h1>About the UCAT</h1>
+                    <p>info text</p>
+                </div>
+                <div class="stats">
+                    <img src="graph.png"><br>
+                    <super>Graph details</super>
+                </div>
+            </div>
+        </section>
+
         
-    </section>
+        <!-- contact  -->
+        <hr>
+        <section class="contact">
+            <h1 id="booking">Contact Us To Book a Trial</h1>
+            <br>
+            <div class="row">
+                <div class="contact-col">
+                    <form action="formhandler.php" method="post"><br>
+                        <input type="text" name="name" placeholder="Name:" required>
+                        <input type="email" name="email" placeholder="Email:" required>
+                        <input type="tel" name="number" placeholder="Phone Number:" required>
+                        <textarea rows="9" name="message" placeholder="Message:"></textarea>
+                        <button type="submit" class="book">Send Message</button>
+                    </form>
+                    
+                </div>
+
+                <div class="contact-col">
+                  
+                        <h5>For all inquiries:</h5>
+                        <p>Tel: 0123456789<br><br>Email: info@ucatprep.com</p>
+                    
     
-    
-</body>
+                </div>
+
+            </div>
+                        
+        </section>
+        
+        
+        <!-- footer  -->
+        <section class="footer">
+            <h4>UCATPREP</h4>
+            <p> UCATPrep + legal info and stuff</p>
+
+        </section>
+                    
+
+    </body>
+
 </html>
