@@ -118,7 +118,6 @@ nav img{
 .course{
     width: 80%;
     margin: auto;
-    
     padding-top: 80px;
 
 }
@@ -139,15 +138,35 @@ nav img{
     font-size: 24px;
     font-family: "TharLon-Regular", Helvetica;
     font-weight: 300;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+}
+/*
+.row{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "TharLon-Regular", Helvetica;
+    font-weight: 300;
     text-align: center
+}
+*/
+.course .row{
+    border: solid 1px;
+    background-color: #cfeaef;
+    
 }
 .offer-info{
     flex-basis: 31%;
     background: #cee4dc;
     border-radius:15px;
-    margin-bottom: 2%;
     padding 35px 15px;
     box-sizing: border-box;
+    border: solid 1px;
 }
 h3{
     text-align: center;
@@ -191,6 +210,8 @@ p{
     }
     .offer-info{
         font-size: 20px;
+        margin-bottom: 2%;
+        margin-top: 2%;
     }
     
 }
@@ -236,11 +257,14 @@ p{
     .who-we-are .box{
         height: auto;
     }
+    .who-we-are .who{
+        font-size: 30px;
+    }
 }
 
 /*---- tutors ----*/
 .tutes{
-    width: 80%;
+    width: 85%;
     margin: auto;
     padding-bottom: 50px;
 }
@@ -248,7 +272,7 @@ p{
     width: 100%;
     text-align: center;
     padding-top: 20px;
-    font-size: 30px;
+    font-size: 45px;
     font-family: "TharLon-Regular", Helvetica;
     font-weight: 600;
 }
@@ -283,7 +307,9 @@ p{
     margin-left: 0;
 }
 @media(max-width: 700px){
-    
+    .tutes h2{
+        font-size: 30px;
+    }
     .quotes p{
         font-family: "TharLon-Regular", Helvetica;
         font-weight: 100;
@@ -309,7 +335,7 @@ p{
         margin: auto;
     }
     .quotes img{
-        width: 100%;
+        width: 90%;
         padding: 0;
     }
 

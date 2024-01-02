@@ -7,11 +7,8 @@
     <link rel="icon" type="image/x-icon" href="favicon.png">
 </head>
     <body>
-        
         <script>// Get the button:
             let mybutton = document.getElementById("myBtn");
-
-            // When the user scrolls down 20px from the top of the document, show the button
             window.onscroll = function() {scrollFunction()};
 
             function scrollFunction() {
@@ -21,18 +18,15 @@
                 mybutton.style.display = "none";
               }
             }
-
-            // When the user clicks on the button, scroll to the top of the document
             function topFunction() {
-              document.body.scrollTop = 0; // For Safari
               document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
             }
         </script>
-        
         <button onclick="topFunction()" id="myBtn" title="Go to top">
             <img class="up" src="up.png">
         </button>
 
+        <!-- header  -->
         <section class="header">
             <nav>
                 <a href="index.html"><img src="logo.png"></a>
@@ -43,43 +37,37 @@
                     </ul>
                 </div>
             </nav>
-
+        <!--  hooker  -->
             <div class="hooker">
-            <h1>Worried about the UCAT?</h1>
-            <br>
-            <p>Here's how we can help you</p>
-            <br>
-            <a href="#booking" class="book">Book  a  Trial</a>
-        </div>    
-
+                <h1>Worried about the UCAT?</h1>
+                <br>
+                <p>Here's how we can help you</p>
+                <br>
+                <a href="#booking" class="book">Book  a  Trial</a>
+            </div>    
         </section>
 
         <!-- offering -->
         <section class="course">
             <h1>What We Offer</h1>
-
             <div class="row">
                 <div class="offer-info">
-                    <h3>24/7 Support</h3>
+                    <h3>24/7 Support:</h3>
                     <p>Access with 24/7 support and contact with our tutors</p>
                 </div>
                 <div class="offer-info">
-                    <h3>Personalised Feedback</h3>
+                    <h3>Personalised Feedback:</h3>
                     <p>Specific and effective one on one feedback both written and verbal for easy and effective learning and improvement</p>
                 </div>
                 <div class="offer-info">
-                    <h3>High Quality Resources</h3>
+                    <h3>High Quality Resources:</h3>
                     <p>Specialised, high quality resources to ensure full preparation and learning</p>
                 </div>
-
             </div>
-
         </section>
 
         <!-- who we are -->
         <section id="about" class="who-we-are">
-
-            <!--        <body><div class="box"><div class="background"></div></div></body>-->
             <div class="box">
                 <h1 class="who">Who We Are</h1>
                 <p class="hailing">Hailing from John Monash Science School, we are used to thriving in a competitive and cutthroat setting.
@@ -92,14 +80,9 @@
                       have accomplished scores of well above 3000, easily surpassing the threshold to get into medicine in
                       Australia.</p>
             </div>
-    <!--        <div class="rec1"></div>-->
-
-
-
         </section>
 
         <!--  meet the tutors  -->
-
         <section class="tutes">
             <h2>Meet the Tutors</h2>
             <div class="row">
@@ -125,6 +108,7 @@
         </section>
         <br>
         <hr>
+        
         <!-- graphs  -->
         <section class="graph">
             <div class="row">
@@ -139,7 +123,6 @@
             </div>
         </section>
 
-        
         <!-- contact  -->
         <hr>
         <section class="contact">
@@ -154,21 +137,13 @@
                         <textarea rows="9" name="message" placeholder="Message:"></textarea>
                         <button type="submit" class="book">Send Message</button>
                     </form>
-                    
                 </div>
-
                 <div class="contact-col">
-                  
-                        <h5>For all inquiries:</h5>
-                        <p>Tel: 0123456789<br><br>Email: info@ucatprep.com</p>
-                    
-    
+                    <h5>For all inquiries:</h5>
+                    <p>Tel: 0123456789<br><br>Email: info@ucatprep.com</p>
                 </div>
-
-            </div>
-                        
+            </div>          
         </section>
-        
         
         <!-- footer  -->
         <section class="footer">
@@ -176,8 +151,6 @@
             <p> UCATPrep + legal info and stuff</p>
 
         </section>
-                    
 
     </body>
-
 </html>
