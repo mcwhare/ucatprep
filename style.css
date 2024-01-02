@@ -183,7 +183,7 @@ p{
     color: white;
     border: 1px solid white;
     padding: 12px 34px;
-    font-size: 13px;
+    font-size: 15px;
     background: black;
     position: relative;
     cursor: pointer;
@@ -238,10 +238,13 @@ p{
     padding: 15px 100px;
 }
 .who-we-are .box{
+    text-align: center;
     position: relative;
-    width: 100%;
+    width: 80%;
     height: 400px;
     background-color: #ced4db;
+    margin: auto;
+    border-radius: 20px;
 }
 
 @media(max-width:700px){
@@ -310,12 +313,13 @@ p{
     .tutes h2{
         font-size: 30px;
     }
+
     .quotes p{
         font-family: "TharLon-Regular", Helvetica;
         font-weight: 100;
         text-align: center;
         margin: auto;
-        font-size: 10px;
+        font-size: 14px;
         margin-top: 10%;
     }
     .quotes h1{
@@ -330,7 +334,7 @@ p{
         
     }
     .quotes{
-        width: 80%;
+        width: 90%;
         text-align: center;
         margin: auto;
     }
@@ -368,6 +372,11 @@ p{
 .graph .stats{
     flex-basis: 60%;
     padding-top: 5%
+}
+.graph .sample{
+    font-size: 15px;
+    font-family: "TharLon-Regular", Helvetica;
+    font-weight: 500;
 }
 
 /*---- Contact ----*/
