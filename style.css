@@ -128,6 +128,12 @@ nav img{
     font-family: "TharLon-Regular", Helvetica;
     font-weight: 600;
     text-align: center;
+    background-color: #cfeaef;
+    margin: auto;
+    padding-top: 10px;
+    width: 40%;
+    border-radius: 20px 20px 0 0;
+    
 }
 .row{
     margin-top: 50px;
@@ -156,8 +162,9 @@ nav img{
 }
 */
 .course .row{
-    border: solid 1px;
     background-color: #cfeaef;
+    margin: auto;
+    padding-top: 60px;
     
 }
 .offer-info{
@@ -204,12 +211,14 @@ p{
 @media(max-width: 700px){
     .row{
         flex-direction: column;
+        border-radius: 0 0 15px 15px;
     }
     .course h1{
         font-size: 34px;
+        width: auto;
     }
     .offer-info{
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 2%;
         margin-top: 2%;
     }
@@ -229,20 +238,33 @@ p{
     padding-bottom: 50px;
 }
 .who-we-are .who{
-    padding-top: 50px;
+    padding-top: 10px;
+    margin: auto;
+    margin-top: 40px;
+    width: 40%;
+    background-color: #cfeaef;
+    border-radius: 25px 25px 0 0;
 }
 .who-we-are .hailing{
     font-size: 18px;
-    margin: 15px;
-    margin-top: 40px;
+/*    margin: 15px;*/
+    margin-top: 0;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+/*    margin-top: 40px;*/
     padding: 15px 100px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border-radius: 25px;
+    background-color: #cfeaef;
 }
 .who-we-are .box{
     text-align: center;
     position: relative;
     width: 80%;
     height: 400px;
-    background-color: #ced4db;
+/*    background-color: #ced4db;*/
     margin: auto;
     border-radius: 20px;
 }
@@ -253,15 +275,18 @@ p{
     }
     .who-we-are .hailing{
         font-size: 14px;
-        margin: 10px;
-        padding: 15px 3px;
+        padding: 15px 5px;
+        padding-top: 20px;
+        margin: auto;
         margin-bottom: 25px;
+    
     }
     .who-we-are .box{
         height: auto;
     }
     .who-we-are .who{
         font-size: 30px;
+        width: 80%;
     }
 }
 
@@ -294,21 +319,34 @@ p{
     font-family: "TharLon-Regular", Helvetica;
     font-weight: 500;
     text-align: left;
+    padding: 15px;
     padding-top: 5%;
 }
-.quotes sub{
+.quotes bot{
     font-family: "TharLon-Regular", Helvetica;
     font-weight: 200;
     text-align: left;
-    border: 0;
-    margin: 0;
+    padding: 15px;
+    font-size: 24px;
+    display: inline-block;
+
 }
 .quotes p{
     font-family: "TharLon-Regular", Helvetica;
     font-weight: 100;
     text-align: left;
     margin-left: 0;
+    margin: auto;
+    padding: 15px;
+    padding-top: 20px;
 }
+
+/*
+.quotes p, .quotes bot, .quotes h1{
+    background-color: #cfeaef;
+}
+*/
+
 @media(max-width: 700px){
     .tutes h2{
         font-size: 30px;
@@ -321,16 +359,21 @@ p{
         margin: auto;
         font-size: 14px;
         margin-top: 10%;
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
     }
     .quotes h1{
         font-size: 24px;
         text-align: center;
         margin: auto;
         position: relative;
+        padding-bottom: 0;
     }
-    .quotes sub{
-        font-size: 10px;
-        line-height: 50%;
+    .quotes bot{
+        font-size: 14px;
+        padding-bottom: 0;
+        text-align: center;
         
     }
     .quotes{
@@ -373,10 +416,11 @@ p{
     flex-basis: 60%;
     padding-top: 5%
 }
-.graph .sample{
-    font-size: 15px;
-    font-family: "TharLon-Regular", Helvetica;
-    font-weight: 500;
+
+.graph .sampleimg{
+    width: 80%;
+    margin: auto;
+    border: solid gray 3px;
 }
 
 /*---- Contact ----*/
@@ -390,13 +434,24 @@ p{
     font-weight: 500;
     margin-top: 5%;
 }
+.contact h1{
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+    background-color: #cfeaef;
+    border-radius: 15px 15px 0 0;
+}
 .contact-col{
     flex-basis: 48%;
     margin-bottom: 30px;
 }
+.contact-col form{
+    padding-top: 10px;
+}
 .contact-col div{
     align-items: center;
     display: flex;
+    margin-bottom: 10px;
 }
 .contact-col input, .contact-col textarea{
     width: 75%;
@@ -414,8 +469,13 @@ p{
 .contact-col h5, .contact-col p{
     width: 70%;
     text-align: left;
-    margin: 5%;
+    margin: 1%;
     margin-left: 10%;
+}
+.contact-col h5{
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 40px;
 }
 .book2{
     display: block;
@@ -466,6 +526,11 @@ p{
 .footer p{
     font-size: 12px;
 }
+.footerimg{
+    width: 15%;
+}
+
+
 #myBtn {
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; 
