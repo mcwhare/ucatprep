@@ -4,10 +4,10 @@
     <meta name="viewport" content="with=device-width, initial-scale=1.0">
     <title>UCATPrep</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="icon" type="image/x-icon" href="favicon.png"> <!--favicon-->
 </head>
     <body>
-        <script>// Get the button:
+        <script> //go to top button
             let mybutton = document.getElementById("myBtn");
             window.onscroll = function() {scrollFunction()};
 
@@ -19,9 +19,10 @@
               }
             }
             function topFunction() {
-              document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+              document.documentElement.scrollTop = 0;
             }
         </script>
+        <!-- goto top button -->
         <button onclick="topFunction()" id="myBtn" title="Go to top">
             <img class="up" src="up.png">
         </button>
@@ -37,6 +38,7 @@
                     </ul>
                 </div>
             </nav>
+            
         <!--  hooker  -->
             <div class="hooker">
                 <h1>Worried about the UCAT?</h1>
@@ -53,15 +55,15 @@
             <div class="row">
                 <div class="offer-info">
                     <h3>24/7 Support:</h3>
-                    <p>Access with 24/7 support and contact with our tutors</p>
+                    <p>We understand the need for access to help at any point during the day. Having graduated in 2023, we provide up to date strategies and support to our students, ensuring that each and every one of them do NOT have to face VCE alone.</p>
                 </div>
                 <div class="offer-info">
                     <h3>Personalised Feedback:</h3>
-                    <p>Specific and effective one on one feedback both written and verbal for easy and effective learning and improvement</p>
+                    <p>Upon enrollment, we will provide a free consultation, where we will discuss the student's fears and supposed weaknesses, and turn them into strengths by the end of the course. Along with our multitudes of available resources (Content Booklets, Worksheets and Practice Questions), we aim to track the progress of our students to ensure no one falls behind, or to extend the students who are much stronger in their capabilities.</p>
                 </div>
                 <div class="offer-info">
-                    <h3>High Quality Resources:</h3>
-                    <p>Specialised, high quality resources to ensure full preparation and learning</p>
+                    <h3>Accountability Groups: </h3>
+                    <p>Our smaller classes of 6-8 students are designed to provide the basis of a support group AND ensure that accountability is maintained within the group. Embedding the aspiring doctor community within our course proves vital in ensuring that students learn off each other, on top of classes.</p>
                 </div>
             </div>
         </section>
@@ -75,8 +77,7 @@
                       is why those who have historically performed well in an academic environment may initially struggle with
                       the UCAT. <br /><br />With our tutors each having their own unique methods of completing the UCAT, we have
                       refined these varied approaches into one idealised method, optimising the students’ scores and increasing
-                      their chances of getting into medicine.<br /><br />We were once the average UCAT student; lacking these
-                      Our tutors have learnt to work smarter and have identified recurring patterns within each subtest, and
+                      their chances of getting into medicine.<br /><br />We were once the average UCAT student; lacking the fundamental skills that are not taught in general tutoring lessons, to perform to the best of their ability. Our tutors have learnt to work smarter and have identified recurring patterns within each subtest, and
                       have accomplished scores of well above 3000, easily surpassing the threshold to get into medicine in
                       Australia.</p>
             </div>
@@ -85,6 +86,7 @@
         <!--  meet the tutors  -->
         <section class="tutes">
             <h2>Meet the Tutors</h2>
+            <!--jos-->
             <div class="row" id="jos">
                 <div class="quotes">
                     <img src="jos-headshot.png">
@@ -95,6 +97,7 @@
                     <p>"Having undertaken the UCAT in 2023, I have found that the experience can be isolating and filled with uncertainty. However, establishing connections within a classroom setting, coupled with the accountability that it provided, was crucial in ensuring an enjoyable and successful UCAT experience".</p>
                 </div>
             </div>
+            <!--sap-->
             <div class="row" id="sap">
                 <div class="quotes">
                     <img src="sap-headshot.png">
@@ -106,16 +109,16 @@
                 </div>
             </div>
         </section>
+        
+        <!--breaks-->
         <br>
         <hr>
         
         <!-- graphs  -->
         <section class="graph">
             <div class="row">
-                <div class="stats">
-                    
-                    
-                    <a class="sample" href="UCATPrep_Sample.pdf" target="_blank"><img class="sampleimg" src="sample%20paper.png"></a>
+                <div class="stats">                
+                    <a class="sample" href="UCATPrep_Sample.pdf" target="_blank"><img class="sampleimg" src="sample%20paper.png"></a> <!--sample preview + link-->
                 </div>
                 <div class="stats">
                     <h1>About the UCAT</h1>
@@ -123,17 +126,17 @@
                     <img src="graph.png"><br>
                     <super>Graph details</super>
                 </div>
-                
             </div>
-            
         </section>
-
+        
         <!-- contact  -->
         <hr>
         <section class="contact">
+            <div class="pricing">
+                <h1>Pricing and Offers:</h1>
+                <p>$40 per week, 2x 1 hour online lessons/workshops per week<br>Lessons entail the course content and understanding the different strategies to each subtest<br>Workshops involve the arduous task of repeating practice questions to drill down on content taught within these lessons.<br><br><b>Referral Bonus:</b><br>Bring a friend along to UCAT classes! If they were to enroll, we will compensate yourself and your friend of a FREE WEEK'S WORTH OF CLASSES.</p>
+            </div>
             <h1 id="booking">Contact Us To Book a Trial</h1>
-            
-<!--            <div class="row">-->
                 <div class="contact-col">
                     <form action="formhandler.php" method="post"><br>
                         <input type="text" name="name" placeholder="Name:" required>
@@ -148,15 +151,12 @@
                     <h5>For all inquiries:</h5>
                     <p>Tel: 0123456789<br><br>Email: info@ucatprep.com</p>
                 </div>
-<!--            </div>          -->
         </section>
         
         <!-- footer  -->
         <section class="footer">
-<!--            <h4>UCATPREP</h4>-->
             <img class="footerimg" src="logo2.png">
             <p> UCATPrep + legal info and stuff</p>
-
         </section>
 
     </body>

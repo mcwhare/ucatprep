@@ -42,7 +42,6 @@ nav img{
     font-size: 22px;
     font-family: "TharLon-Regular", Helvetica;
     font-weight: 400;
-
 }
 .nav-links ul li::after{
     content:'';
@@ -73,9 +72,7 @@ nav img{
 .stocktop{
     position: relative;
     width: 100%; 
-    
 }
-
 
 @media(max-width: 700px){
     .hooker{
@@ -83,7 +80,6 @@ nav img{
     }
     .nav-links ul li{
         display: block;
-        
     }
     nav img{
     width: 150px;
@@ -97,29 +93,24 @@ nav img{
     }
     .nav-links{
         position: absolute;
-        /*background: #212936;
-        height: 100vh;
-        width: 180px;*/
         top: 0;
         right: 0;
         text-align: center;
-        /*z-index: 2;*/
-        
     }
     .nav-links ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 25px 16px;
-    position: relative;
+        list-style: none;
+        display: inline-block;
+        padding: 25px 16px;
+        position: relative;
     }
 }
+
 
 /*----- offer ------*/
 .course{
     width: 80%;
     margin: auto;
     padding-top: 80px;
-
 }
 .course h1{
     color: black;
@@ -135,7 +126,6 @@ nav img{
     border-radius: 25px;
     transform: translate(0, 34px);
     border: solid black 1px;
-    
 }
 .row{
     margin-top: 50px;
@@ -150,24 +140,10 @@ nav img{
     padding: 15px;
     border-radius: 15px;
 }
-/*
-.row{
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    color: black;
-    text-decoration: none;
-    font-size: 24px;
-    font-family: "TharLon-Regular", Helvetica;
-    font-weight: 300;
-    text-align: center
-}
-*/
 .course .row{
     background-color: #cfeaef;
     margin: auto;
     padding-top: 60px;
-    
 }
 .offer-info{
     flex-basis: 31%;
@@ -202,12 +178,10 @@ p{
     font-family: "TharLon-Regular", Helvetica;
     margin: auto;
 }
-
 .book:hover{
     border: 1px solid gray;
     background: gray;
     transition 1s;
-    
 }
 
 @media(max-width: 700px){
@@ -218,14 +192,21 @@ p{
     .course h1{
         font-size: 34px;
         width: auto;
+        padding-bottom: 10px;
     }
     .offer-info{
         font-size: 18px;
         margin-bottom: 2%;
         margin-top: 2%;
     }
+    .offer-info p{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-size: 15px;
+    }
     
 }
+
 
 /*---- who we are -----*/
 .who-we-are{
@@ -245,7 +226,6 @@ p{
     margin-top: 40px;
     width: 40%;
     background-color: #cfeaef;
-/*    border-radius: 25px 25px 0 0;*/
     border-radius: 25px;
     border: solid 1px;
     z-index: 5;
@@ -253,12 +233,10 @@ p{
 }
 .who-we-are .hailing{
     font-size: 18px;
-/*    margin: 15px;*/
     margin-top: 0;
     margin-bottom: 15px;
     margin-left: 15px;
     margin-right: 15px;
-/*    margin-top: 40px;*/
     padding: 15px 100px;
     padding-top: 50px;
     padding-bottom: 30px;
@@ -270,7 +248,6 @@ p{
     position: relative;
     width: 80%;
     height: 400px;
-/*    background-color: #ced4db;*/
     margin: auto;
     border-radius: 20px;
 }
@@ -286,7 +263,6 @@ p{
         padding-top: 45px;
         margin: auto;
         margin-bottom: 25px;
-    
     }
     .who-we-are .box{
         height: auto;
@@ -294,8 +270,10 @@ p{
     .who-we-are .who{
         font-size: 30px;
         width: 80%;
+        padding-bottom: 10px;
     }
 }
+
 
 /*---- tutors ----*/
 .tutes{
@@ -328,18 +306,18 @@ p{
     background-color: #cfeaef;
     margin-top: 0;
     padding-top: 65px;
+    padding-bottom: 25px;
 }
 #jos{
-    border-radius: 20px 20px 0 0;
+    border-radius: 25px 25px 0 0;
 }
 #sap{
-    border-radius: 0 0 20px 20px;
+    border-radius: 0 0 25px 25px;
 }
 .quotes img{
     width: 50%;
     padding-left: 20%;
 }
-
 .quotes h1{
     font-family: "TharLon-Regular", Helvetica;
     font-weight: 500;
@@ -354,7 +332,6 @@ p{
     padding: 15px;
     font-size: 24px;
     display: inline-block;
-
 }
 .quotes p{
     font-family: "TharLon-Regular", Helvetica;
@@ -366,16 +343,12 @@ p{
     padding-top: 20px;
 }
 
-/*
-.quotes p, .quotes bot, .quotes h1{
-    background-color: #cfeaef;
-}
-*/
-
 @media(max-width: 700px){
     .tutes h2{
         font-size: 30px;
-        width: 85%
+        width: 85%;
+        padding-top: 10px;
+        transform: translate(0,28px);
     }
 
     .quotes p{
@@ -400,7 +373,6 @@ p{
         font-size: 14px;
         padding-bottom: 0;
         text-align: center;
-        
     }
     .quotes{
         width: 90%;
@@ -413,6 +385,7 @@ p{
     }
 
 }
+
 
 /*---- graphs ----*/
 .graph{
@@ -448,6 +421,7 @@ p{
     margin: auto;
     border: solid gray 3px;
 }
+
 @media(max-width: 700px){
     .graph .sampleimg{
         width: 100%;
@@ -456,6 +430,7 @@ p{
         width: 90%;
     }
 }
+
 
 /*---- Contact ----*/
 .contact{
@@ -468,6 +443,15 @@ p{
     font-weight: 500;
     margin-top: 5%;
 }
+.pricing p{
+    margin: auto;
+    padding: 15px;
+    padding-top: 35px;
+    width: 75%;
+    background-color: #cfeaef;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
 .contact h1{
     margin: auto;
     width: 40%;
@@ -477,6 +461,7 @@ p{
     z-index: 5;
     transform: translate(0, 23px);
     border: solid black 1px;
+    margin-top: 10px;
 }
 .contact-col{
     flex-basis: 48%;
@@ -533,13 +518,12 @@ p{
     font-family: "TharLon-Regular", Helvetica;
     margin: 15px;
 }
-
 .book2:hover{
     border: 1px solid gray;
     background: gray;
     transition 1s;
-    
 }
+
 @media(max-width: 700px){
     .contact-col input, .contact-col textarea{
         margin: auto;
@@ -550,7 +534,13 @@ p{
         width: 80%;
         font-size: 18px;
     }
+    .pricing h1{
+        width: 70%;
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
+
 
 /*---- footer ----*/
 .footer{
@@ -560,7 +550,6 @@ p{
     font-size: 15px;
     font-family: "TharLon-Regular", Helvetica;
     font-weight: 500;
-    
 }
 .footer h4{
     margin-bottom: 25px;
@@ -574,21 +563,20 @@ p{
     width: 15%;
 }
 
-
 #myBtn {
-    position: fixed; /* Fixed/sticky position */
+    position: fixed;
     bottom: 20px; 
     right: 30px; 
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
+    z-index: 99;
+    border: none; 
+    outline: none; 
     background-color: gray; 
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 30px; /* Rounded corners */
+    cursor: pointer;
+    padding: 15px; 
+    border-radius: 30px; 
     width: 60px;
     height: 60px;
-    }
+}
 .up{
     width: 100%;
     position: relative;
@@ -596,10 +584,10 @@ p{
     margin-right: auto;
     z-index: 100;
 }
-
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
+
 @media(max-width: 700px){
     #myBtn{
         display: none;
@@ -611,5 +599,8 @@ p{
     .up{
         display: none;
         width: 100%;
+    }
+    .footerimg{
+        width: 50%;
     }
 }
