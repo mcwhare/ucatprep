@@ -124,7 +124,7 @@ nav img{
 .course h1{
     color: black;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 45px;
     font-family: "TharLon-Regular", Helvetica;
     font-weight: 600;
     text-align: center;
@@ -132,7 +132,9 @@ nav img{
     margin: auto;
     padding-top: 10px;
     width: 40%;
-    border-radius: 20px 20px 0 0;
+    border-radius: 25px;
+    transform: translate(0, 34px);
+    border: solid black 1px;
     
 }
 .row{
@@ -243,7 +245,11 @@ p{
     margin-top: 40px;
     width: 40%;
     background-color: #cfeaef;
-    border-radius: 25px 25px 0 0;
+/*    border-radius: 25px 25px 0 0;*/
+    border-radius: 25px;
+    border: solid 1px;
+    z-index: 5;
+    transform: translate(0px, 32px);
 }
 .who-we-are .hailing{
     font-size: 18px;
@@ -254,7 +260,7 @@ p{
     margin-right: 15px;
 /*    margin-top: 40px;*/
     padding: 15px 100px;
-    padding-top: 40px;
+    padding-top: 50px;
     padding-bottom: 30px;
     border-radius: 25px;
     background-color: #cfeaef;
@@ -276,7 +282,8 @@ p{
     .who-we-are .hailing{
         font-size: 14px;
         padding: 15px 5px;
-        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-top: 45px;
         margin: auto;
         margin-bottom: 25px;
     
@@ -300,15 +307,33 @@ p{
     width: 100%;
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 10px;
     font-size: 45px;
     font-family: "TharLon-Regular", Helvetica;
     font-weight: 600;
+    background-color: #cfeaef;
+    margin: auto;
+    width: 40%;
+    border-radius: 20px;
+    border: solid 1px black;
+    transform: translate(0, 42px);
 }
 .quotes{
     flex-basis: 48%;
     padding: 1px 2px;
     width: 10%;
     text-align: left;
+}
+.tutes .row{
+    background-color: #cfeaef;
+    margin-top: 0;
+    padding-top: 65px;
+}
+#jos{
+    border-radius: 20px 20px 0 0;
+}
+#sap{
+    border-radius: 0 0 20px 20px;
 }
 .quotes img{
     width: 50%;
@@ -350,6 +375,7 @@ p{
 @media(max-width: 700px){
     .tutes h2{
         font-size: 30px;
+        width: 85%
     }
 
     .quotes p{
@@ -422,6 +448,14 @@ p{
     margin: auto;
     border: solid gray 3px;
 }
+@media(max-width: 700px){
+    .graph .sampleimg{
+        width: 100%;
+    }
+    .graph img{
+        width: 90%;
+    }
+}
 
 /*---- Contact ----*/
 .contact{
@@ -439,14 +473,20 @@ p{
     width: 40%;
     padding: 10px;
     background-color: #cfeaef;
-    border-radius: 15px 15px 0 0;
+    border-radius: 20px;
+    z-index: 5;
+    transform: translate(0, 23px);
+    border: solid black 1px;
 }
 .contact-col{
     flex-basis: 48%;
     margin-bottom: 30px;
 }
 .contact-col form{
-    padding-top: 10px;
+    padding-top: 15px;
+    background-color: #cfeaef;
+    border-radius: 40px;
+    padding-bottom: 10px;
 }
 .contact-col div{
     align-items: center;
@@ -454,16 +494,16 @@ p{
     margin-bottom: 10px;
 }
 .contact-col input, .contact-col textarea{
-    width: 75%;
+    width: 80%;
     padding: 15px;
-    margin-bottom: 17px;
+    margin-top: 8px;
+    margin-bottom: 8px;
     outline: none;
     font-size: 15px;
     font-family: "TharLon-Regular", Helvetica;
     font-weight: 500;
     border: 1px solid gray;
     box-sizing: border-box;
-    margin-left: 50px;
     resize: none;
 }
 .contact-col h5, .contact-col p{
@@ -505,6 +545,10 @@ p{
         margin: auto;
         margin-bottom: 10px;
         width: 90%;
+    }
+    .contact h1{
+        width: 80%;
+        font-size: 18px;
     }
 }
 
